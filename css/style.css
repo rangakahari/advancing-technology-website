@@ -1,0 +1,222 @@
+/* BASE STYLES */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+a {
+    margin: 25px 0;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    line-height:1.4;
+}
+
+.button {
+    background-color: #fe5f55;
+    padding:8px 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* DEFAULTS */
+
+img {
+    display: block;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/***** HOMEPAGE *****/
+
+/* Header */
+header {
+    background: url(../images/conference-hero.jpg);
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    padding: 5px;;
+    
+}
+
+/* Benefits */
+#benefits {
+    background-color: #bdd5ea;
+    border-bottom: 1px dotted #495867;
+}
+
+/* Three Points */
+
+.three-points-section {
+    min-height:400px;
+    background-image: url(/images/swirl.png);
+}
+
+.three-points-section img {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.three-points-section img:hover {
+    border: 4px solid #000;
+}
+
+.three-points-section-image {
+    width: 40%;
+    float: left;
+}
+
+.three-points-section-text {
+    width: 60%;
+    float: left;
+}
+
+
+/* Prices */
+#pricing-table {
+    background-color: #bdd5ea;
+    border-top: 1px dashed #495867;
+    border-bottom: 1px dashed #495867;
+}
+.reserve {
+    text-align: center;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th,td {
+    border: 4px solid #bdd5ea;
+    padding:20px;
+}
+
+table th {
+    color: #fff;
+    background-color: #577399;
+}
+table td {
+    background-color: #fff
+}
+
+
+
+/* Speakers */
+.speaker-column-1  {
+    float: left;
+    width: 49%;
+    background: url('/images/swirl.png');
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px #efefef;
+}
+
+.speaker-column-2 {
+    float: right;
+        width: 49%;
+        background: url('/images/swirl.png');
+        border: 1px solid #efefef;
+        box-shadow: 2px 2px #efefef;
+    
+}
+
+.speaker-column-1 h4, .speaker-column-2 h4 {
+    text-align: center;
+}
+
+.speaker {
+    clear: both;
+    min-height: 200px;
+}
+
+.speaker-image {
+    width: 50%;
+    float: left;
+}
+
+.speaker-image img {
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.speaker-text {
+    width: 50%;
+    float: left;
+}
+
+/* Get Tickets */
+.home-cta {
+    background-color: #bdd5ea;
+    border-top: 1px dashed #495867;
+    text-align: center;
+}
+
+footer {
+    background-color: #495867;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/***** TICKETS PAGE *****/
+
+.tickets-page-section {
+    text-align: center;
+}
+
+.tickets-page-section input {
+    margin: 10px;
+    padding:10px;
+    border-radius: 5px;
+    outline: none;
+}
